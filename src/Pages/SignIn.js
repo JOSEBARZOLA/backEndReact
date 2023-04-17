@@ -84,7 +84,7 @@ const SignIn = () => {
                             </Form.Text>
                             <Row className="py-2 border-bottom mb-3"/>
                             <Link to='/register' className="btn btn-info rounded-5 bg-dark-primary">
-                                Crea tu cuenta 
+                                Crear cuenta 
                             </Link>
                         </Form.Group>
                     </Form>

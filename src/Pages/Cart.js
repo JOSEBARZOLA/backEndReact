@@ -64,13 +64,13 @@ const Cart = () => {
                                 onClick={()=> emptyCart()}
                             >
                                 <BsCartX size="1.7rem" />
-                                Clear Cart
+                                Vaciar Carro
                             </Button>
                             <Button variant="success"
                                 className="m-2"
                             >
                                 <BsCartCheck size="1.7rem" />
-                                Clear Cart
+                                Comprar
                             </Button>
                         </Col>
                     </Row>}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Tab, Nav, Image, Form, Button, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Tab, Nav, Image} from 'react-bootstrap';
 import { useThemeHook } from '../GlobalComponents/ThemeProvider';
 import Heading from  '../components/Heading';
 import profilePix from '../images/profile-picture.png';
@@ -48,7 +48,7 @@ const MyAccount = () => {
                                     <IoLocationSharp size="1.4rem" />
                                 </Nav.Link>
                                 <Nav.Link eventKey="wallet">
-                                    Wallet
+                                    Billetera
                                     <GiWallet size="1.4rem" />
                                 </Nav.Link>
                             </Nav.Item>
@@ -59,18 +59,18 @@ const MyAccount = () => {
                             <Tab.Pane eventKey="my-orders">
                                 <Heading heading="Mis Ordenes" size="h3" />
                                 <OrderCard 
-                                    orderDate="24 Jun, 2022" 
+                                    orderDate="24 Ene, 2023" 
                                     orderId="1234" 
                                     title="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
                                     img="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-                                    deliveredDate="05 July, 2022"
+                                    deliveredDate="25 Ene, 2023"
                                 />
                                 <OrderCard 
-                                    orderDate="24 Jun, 2022" 
+                                    orderDate="3 Feb, 2023" 
                                     orderId="1334" 
                                     title="Mens Casual Premium Slim Fit T-Shirts"
                                     img="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
-                                    deliveredDate="05 July, 2022"
+                                    deliveredDate="1 Feb, 2023"
                                 />
                             </Tab.Pane>
                             <Tab.Pane eventKey="account-details">
@@ -80,7 +80,7 @@ const MyAccount = () => {
                                 <Heading heading="Direccion" size="h3" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="wallet">
-                                <Heading heading="Wallet" size="h3" />
+                                <Heading heading="Billetera" size="h3" />
                             </Tab.Pane>
                         </Tab.Content>
                      </Col>
