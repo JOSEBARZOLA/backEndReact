@@ -5,10 +5,10 @@ import { useThemeHook } from '../GlobalComponents/ThemeProvider';
 const OrderCard = (props) => {
     const [theme] = useThemeHook();
     return (
-       <Card className={`${theme? 'bg-light-black text-light' : 'bg-light text-black'} mb-3`} border={theme? 'warning' : 'primary'}>
+       <Card className={`${theme? 'bg-light-black text-light' : 'bg-light text-black'} mb-3`} border={theme? 'success' : 'primary'}>
             <Card.Header>
                 <b>{props.orderDate}</b>
-                <small className="float-end">Order ID: {props.orderId}</small>
+                <small className="float-end">Orden ID: {props.orderId}</small>
             </Card.Header>
             <Row className="p-2">
                 <Col xs={3} sm={2}>
@@ -19,7 +19,7 @@ const OrderCard = (props) => {
                         <Card.Title>{props.title}</Card.Title>
                         <Card.Text>
                             <Badge pill bg="success">
-                                Delivered on {props.deliveredDate}
+                                Enviado {props.deliveredDate}
                             </Badge>
                         </Card.Text>
                     </Card.Body>

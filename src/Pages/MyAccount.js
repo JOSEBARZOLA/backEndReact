@@ -66,7 +66,7 @@ const MyAccount = () => {
                                     deliveredDate="25 Ene, 2023"
                                 />
                                 <OrderCard 
-                                    orderDate="3 Feb, 2023" 
+                                    orderDate="29 Ene, 2023" 
                                     orderId="1334" 
                                     title="Mens Casual Premium Slim Fit T-Shirts"
                                     img="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
